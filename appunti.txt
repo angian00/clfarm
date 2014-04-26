@@ -1,0 +1,58 @@
+FarmCity
+===============
+
+Un clone di Farmville/HayDay a linea di comando.
+
+Architettura client/server.
+
+
+Nel primo prototipo (v0.x) il server e' locale. Il colloquio e' via socket TCP.
+
+Sviluppato in: Python o Java. Uso curses e caratteri colorati ASCII.
+
+Da esporre anche API, per client bot. I client bot tenderanno a massimizzare lo sfruttamento dei crop/factories, quindi da prevedere un meccanismo di limitazione. Ad es.: la capacita' del granaio puo' essere incrementata solo con i construction materials, che possono essere acquisiti solo dagli scrigni random o dai diamanti.
+
+Due modalita': interfaccia interattiva vs. colloquio diretto socket/REST.
+
+
+Milestones
+==============
+
+v0.0
+-------
+Creazione progetto Eclipse.
+Aggancio github.
+
+v0.1
+-------
+Prototipo di interfaccia utente. Architettura client/server. Concetto di
+"crop", con tempo di maturazione.
+
+v0.2
+-------
+Granaio, silo, etc. Gerarchia classi oggetti gioco. Passaggio di livello(score, incremento possibilita').
+
+v0.3
+-------
+Architettura definitiva: strutture dati per memorizzare lo stato del gioco lato server
+
+
+v1.0
+-------
+ - tutorial
+ - documentazione
+ - ricette segrete
+ - market inter-giocatore
+ - helper bots
+ + interfaccia web
+     - uso WebSocket
+
+
+v2.0
+-------
+ + security
+ + deploy come Facebook app
+
+
+==============
+
