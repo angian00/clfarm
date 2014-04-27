@@ -1,5 +1,5 @@
-FarmCity
-===============
+CommandLine Farm
+==================
 
 Un clone di Farmville/HayDay a linea di comando.
 
@@ -18,23 +18,28 @@ Due modalita': interfaccia interattiva vs. colloquio diretto socket/REST.
 Milestones
 ==============
 
-v0.0
--------
-Creazione progetto Eclipse.
-Aggancio github.
-
 v0.1
 -------
-Prototipo di interfaccia utente. Architettura client/server. Concetto di
+Prototipo di interfaccia utente. Concetto di
 "crop", con tempo di maturazione.
 
 v0.2
 -------
-Granaio, silo, etc. Gerarchia classi oggetti gioco. Passaggio di livello(score, incremento possibilita').
+Granaio, silo, etc. Gerarchia classi oggetti gioco.
+Passaggio di livello(score, incremento possibilita').
 
 v0.3
 -------
-Architettura definitiva: strutture dati per memorizzare lo stato del gioco lato server
+
+
+v0.x
+-------
+Passare da java Timer a Quartz.
+Usare curses.
+Usare log4j.
+Risorse definite da file di testo.
+Architettura client/server. Salvataggio stato.
+...
 
 
 v1.0

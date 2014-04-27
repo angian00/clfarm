@@ -1,0 +1,5 @@
+TODO
+==================
+
+- config log4j
+- troubleshooting eclipse content assist
